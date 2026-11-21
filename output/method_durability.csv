@@ -1,0 +1,11 @@
+repair_method,jobs,reopen_pct,median_cost_ratio
+Dewatering pump deployed,200,14.0,1.0705
+Manhole cover replaced + grating,202,17.3,1.058
+"Excavation, pipeline repair, PQC patch",96,21.9,1.075
+Pump + debris removal,198,22.2,1.0859999999999999
+Desilting and garbage removal,232,22.4,1.0465
+Hot mix patch,318,22.6,1.0415
+Paver blocks relaid,132,22.7,1.0350000000000001
+Mastic asphalt,298,25.8,1.0554999999999999
+Drain desilting,221,26.2,1.021
+Cold mix patch,602,32.2,1.0775000000000001
