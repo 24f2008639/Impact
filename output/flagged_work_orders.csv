@@ -1,7 +1,7 @@
 work_order_id,ward_code,road_id,contractor_name,repair_method,cost_inr,expected_cost_inr,reason
 WO25-00399,A,RD0002,Deccan Paving Solutions (synthetic),Cold mix patch,15787,14400.0,"road under DLP, should be free"
 WO25-02019,A,RD0002,Sahyadri Infra Works (synthetic),Cold mix patch,19888,19440.0,"road under DLP, should be free"
-WO25-00561,A,RD0002,Deccan Paving Solutions (synthetic),Hot mix patch,3548,3639.9999999999995,"road under DLP, should be free"
+WO25-00561,A,RD0002,Deccan Paving Solutions (synthetic),Hot mix patch,3548,3640.0,"road under DLP, should be free"
 WO25-00861,A,RD0005,Mithi Infra Projects (synthetic),Cold mix patch,19054,20700.0,same road + method billed within 7 days
 WO25-00089,A,RD0007,Western Coast Asphalt Co (synthetic),Desilting and garbage removal,84687,70000.0,"road under DLP, should be free"
 WO25-00505,A,RD0007,Arabian Sea Engineering (synthetic),Hot mix patch,23402,27300.0,"road under DLP, should be free"
@@ -21,7 +21,7 @@ WO25-01976,B,RD0019,Konkan Roadcon Pvt Ltd (synthetic),Mastic asphalt,46785,4998
 WO25-00700,B,RD0020,Mahalaxmi Civil Contractors (synthetic),Dewatering pump deployed,160085,60000.0,billed 2.7x rate card
 WO25-00611,B,RD0021,Sahyadri Infra Works (synthetic),"Excavation, pipeline repair, PQC patch",410330,180000.0,billed 2.3x rate card
 WO25-01789,C,RD0023,Sahyadri Infra Works (synthetic),Cold mix patch,12517,15300.0,"road under DLP, should be free"
-WO25-01244,C,RD0023,Mahalaxmi Civil Contractors (synthetic),Hot mix patch,22768,22619.999999999996,"road under DLP, should be free"
+WO25-01244,C,RD0023,Mahalaxmi Civil Contractors (synthetic),Hot mix patch,22768,22620.0,"road under DLP, should be free"
 WO25-01043,C,RD0023,Mahalaxmi Civil Contractors (synthetic),Manhole cover replaced + grating,49809,45000.0,"road under DLP, should be free"
 WO25-00743,C,RD0023,Shivneri Construction (synthetic),Mastic asphalt,73924,35280.0,"billed 2.1x rate card; road under DLP, should be free"
 WO25-00806,C,RD0025,Arabian Sea Engineering (synthetic),Cold mix patch,24258,21240.0,"road under DLP, should be free"
@@ -66,7 +66,7 @@ WO25-00271,E,RD0050,Arabian Sea Engineering (synthetic),Cold mix patch,3362,3600
 WO25-00769,E,RD0050,Mithi Infra Projects (synthetic),Cold mix patch,13698,11520.0,"road under DLP, should be free"
 WO25-00671,E,RD0050,Shivneri Construction (synthetic),Cold mix patch,19003,18900.0,"road under DLP, should be free; same road + method billed within 7 days"
 WO25-01296,E,RD0050,Konkan Roadcon Pvt Ltd (synthetic),Cold mix patch,6440,5580.0,"road under DLP, should be free"
-WO25-01467,E,RD0050,Mahalaxmi Civil Contractors (synthetic),Cold mix patch,1909,1980.0000000000002,"road under DLP, should be free"
+WO25-01467,E,RD0050,Mahalaxmi Civil Contractors (synthetic),Cold mix patch,1909,1980.0,"road under DLP, should be free"
 WO25-00014,E,RD0050,Western Coast Asphalt Co (synthetic),Drain desilting,85657,90000.0,"road under DLP, should be free"
 WO25-01376,E,RD0050,Konkan Roadcon Pvt Ltd (synthetic),Hot mix patch,5106,4940.0,"road under DLP, should be free"
 WO25-01614,E,RD0050,Mithi Infra Projects (synthetic),Hot mix patch,6160,5979.999999999999,"road under DLP, should be free"
@@ -328,7 +328,7 @@ WO25-02266,H/W,RD0119,Mithi Infra Projects (synthetic),Drain desilting,260429,90
 WO25-02314,H/W,RD0119,Konkan Roadcon Pvt Ltd (synthetic),Drain desilting,69888,90000.0,"road under DLP, should be free; same road + method billed within 7 days"
 WO25-01806,H/W,RD0119,Arabian Sea Engineering (synthetic),Pump + debris removal,124108,110000.0,"road under DLP, should be free"
 WO25-01856,H/W,RD0119,Deccan Paving Solutions (synthetic),Pump + debris removal,126576,110000.0,"road under DLP, should be free; same road + method billed within 7 days"
-WO25-01907,H/W,RD0123,Arabian Sea Engineering (synthetic),Cold mix patch,2253,1980.0000000000002,"road under DLP, should be free"
+WO25-01907,H/W,RD0123,Arabian Sea Engineering (synthetic),Cold mix patch,2253,1980.0,"road under DLP, should be free"
 WO25-00275,H/W,RD0123,Shivneri Construction (synthetic),Desilting and garbage removal,60054,70000.0,"road under DLP, should be free"
 WO25-00713,H/W,RD0123,Shivneri Construction (synthetic),Hot mix patch,28987,28080.000000000004,"road under DLP, should be free"
 WO25-00219,H/W,RD0123,Deccan Paving Solutions (synthetic),Manhole cover replaced + grating,55431,45000.0,"road under DLP, should be free"
@@ -338,7 +338,7 @@ WO25-00187,H/W,RD0127,Sahyadri Infra Works (synthetic),Drain desilting,115616,90
 WO25-01049,K/E,RD0131,Shivneri Construction (synthetic),Dewatering pump deployed,76201,60000.0,same road + method billed within 7 days
 WO25-01797,K/E,RD0132,Shivneri Construction (synthetic),Cold mix patch,16588,20520.0,same road + method billed within 7 days
 WO25-01332,K/E,RD0133,Arabian Sea Engineering (synthetic),Cold mix patch,2035,2340.0,same road + method billed within 7 days
-WO25-02217,K/E,RD0133,Konkan Roadcon Pvt Ltd (synthetic),Cold mix patch,3465,1980.0000000000002,billed 1.8x rate card
+WO25-02217,K/E,RD0133,Konkan Roadcon Pvt Ltd (synthetic),Cold mix patch,3465,1980.0,billed 1.8x rate card
 WO25-02104,K/E,RD0133,Deccan Paving Solutions (synthetic),Drain desilting,75317,90000.0,same road + method billed within 7 days
 WO25-00906,K/E,RD0134,Konkan Roadcon Pvt Ltd (synthetic),Cold mix patch,4659,5220.0,same road + method billed within 7 days
 WO25-01353,K/E,RD0134,Western Coast Asphalt Co (synthetic),Mastic asphalt,9056,10920.0,same road + method billed within 7 days
@@ -396,7 +396,7 @@ WO25-01882,K/W,RD0148,Mahalaxmi Civil Contractors (synthetic),Desilting and garb
 WO25-02053,K/W,RD0148,Deccan Paving Solutions (synthetic),Desilting and garbage removal,87680,70000.0,same road + method billed within 7 days
 WO25-02470,K/W,RD0148,Sahyadri Infra Works (synthetic),Dewatering pump deployed,67281,60000.0,same road + method billed within 7 days; no complaint linked
 WO25-01931,K/W,RD0148,Sahyadri Infra Works (synthetic),Dewatering pump deployed,47478,60000.0,same road + method billed within 7 days
-WO25-01541,K/W,RD0148,Mahalaxmi Civil Contractors (synthetic),Paver blocks relaid,67209,26099.999999999996,billed 2.6x rate card; same road + method billed within 7 days
+WO25-01541,K/W,RD0148,Mahalaxmi Civil Contractors (synthetic),Paver blocks relaid,67209,26100.0,billed 2.6x rate card; same road + method billed within 7 days
 WO25-01470,K/W,RD0148,Mithi Infra Projects (synthetic),Pump + debris removal,108561,110000.0,same road + method billed within 7 days
 WO25-02467,K/W,RD0148,Mithi Infra Projects (synthetic),Pump + debris removal,105458,110000.0,same road + method billed within 7 days; no complaint linked
 WO25-02090,K/W,RD0148,Arabian Sea Engineering (synthetic),Pump + debris removal,176993,110000.0,billed 1.6x rate card
@@ -501,7 +501,7 @@ WO25-02137,P/N,RD0182,Sahyadri Infra Works (synthetic),Cold mix patch,11426,1134
 WO25-00831,R/S,RD0183,Arabian Sea Engineering (synthetic),Cold mix patch,4976,3060.0,billed 1.6x rate card
 WO25-01272,R/S,RD0183,Western Coast Asphalt Co (synthetic),Manhole cover replaced + grating,48835,45000.0,same road + method billed within 7 days
 WO25-02003,R/S,RD0183,Konkan Roadcon Pvt Ltd (synthetic),Manhole cover replaced + grating,49281,45000.0,same road + method billed within 7 days
-WO25-00925,R/S,RD0183,Shivneri Construction (synthetic),Paver blocks relaid,87173,102899.99999999999,same road + method billed within 7 days
+WO25-00925,R/S,RD0183,Shivneri Construction (synthetic),Paver blocks relaid,87173,102900.0,same road + method billed within 7 days
 WO25-00197,R/S,RD0184,Arabian Sea Engineering (synthetic),"Excavation, pipeline repair, PQC patch",371901,180000.0,billed 2.1x rate card
 WO25-00325,R/S,RD0184,Konkan Roadcon Pvt Ltd (synthetic),"Excavation, pipeline repair, PQC patch",231542,180000.0,same road + method billed within 7 days
 WO25-01432,R/S,RD0186,Mahalaxmi Civil Contractors (synthetic),Cold mix patch,33497,15120.0,billed 2.2x rate card; same road + method billed within 7 days
@@ -737,7 +737,7 @@ WO25-00003,M/W,RD0239,Mahalaxmi Civil Contractors (synthetic),Cold mix patch,229
 WO25-00646,M/W,RD0240,Arabian Sea Engineering (synthetic),Cold mix patch,12429,14580.0,"road under DLP, should be free"
 WO25-02296,M/W,RD0240,Deccan Paving Solutions (synthetic),Desilting and garbage removal,59961,70000.0,"road under DLP, should be free"
 WO25-00159,M/W,RD0240,Konkan Roadcon Pvt Ltd (synthetic),Mastic asphalt,58294,49140.0,"road under DLP, should be free"
-WO25-01994,M/W,RD0240,Konkan Roadcon Pvt Ltd (synthetic),Paver blocks relaid,148557,116100.00000000001,"road under DLP, should be free"
+WO25-01994,M/W,RD0240,Konkan Roadcon Pvt Ltd (synthetic),Paver blocks relaid,148557,116100.0,"road under DLP, should be free"
 WO25-00055,M/W,RD0243,Mahalaxmi Civil Contractors (synthetic),Cold mix patch,3654,3240.0,"road under DLP, should be free"
 WO25-01382,M/W,RD0243,Konkan Roadcon Pvt Ltd (synthetic),Cold mix patch,17545,15300.0,"road under DLP, should be free"
 WO25-01768,M/W,RD0243,Arabian Sea Engineering (synthetic),Cold mix patch,4262,2340.0,"billed 1.8x rate card; road under DLP, should be free"
